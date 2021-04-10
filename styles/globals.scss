@@ -1,5 +1,6 @@
 :root {
     --primary_bg: #fff;
+    --secondary_bg: #409ec2;
     --primary-text: #242424;
 }
 
@@ -22,7 +23,7 @@ ul {
 .container {
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 0 100px;
     margin: 0 auto;
 
     @media screen and (max-width: 991px) {
@@ -30,8 +31,20 @@ ul {
     }
 }
 
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }

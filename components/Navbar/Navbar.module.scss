@@ -6,20 +6,76 @@
     top: 0;
     z-index: 999;
     background: var(--primary_bg);
+    box-shadow: 0 0 7px rgba(0,0,0,.1);
 }
 
 .navbarWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 80px;
+    position: relative;
+
+    li {
+        &:last-child a {
+            background: var(--secondary_bg);
+            color: #fff;
+            border-radius: 5px;
+
+            @media screen and (max-width: 991px) {
+                width: 70vw;
+                display: block;
+                text-align: center;
+            }
+        }
+    }
 
     li a {
-        padding: .5rem 1rem;
+        padding: .5rem 1rem;        
     }
 }
 
 .logoImg {
-    width: 45px;
+    width: 50px;
     height: auto;
+}
+
+.menuIcon {
+    display: none;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 991px) {
+        display: inline-block;
+    }
+}
+
+#navDesktop {
+    @media screen and (max-width: 991px) {
+        position: fixed;
+        left: -100vw;
+        top: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: all .3s ease-in-out;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        font-size: 1.3rem;
+    }
+}
+
+.navActive {
+    left: 0!important;
+    background: var(--primary_bg);
+    z-index: 1;
 }
