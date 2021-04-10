@@ -1,0 +1,37 @@
+:root {
+    --primary_bg: #fff;
+    --primary-text: #242424;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: var(--primary-text);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 991px) {
+        padding: 0 30px;
+    }
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
