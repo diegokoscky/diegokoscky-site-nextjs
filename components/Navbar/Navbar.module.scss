@@ -1,6 +1,5 @@
 .navbar {
-    height: 80px;
-    font-size: 1.1rem;
+    height: 70px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -10,13 +9,13 @@
 }
 
 .navbarWrapper {
-    height: 80px;
+    height: 70px;
     position: relative;
 
     li {
         &:last-child a {
             background: var(--secondary_bg);
-            color: #fff;
+            color: var(--secondary-text);
             border-radius: 5px;
 
             @media screen and (max-width: 991px) {
@@ -28,7 +27,9 @@
     }
 
     li a {
-        padding: .5rem 1rem;        
+        padding: .5rem 1rem;      
+        font-size: 1.1rem;
+        color: var(--primary-text);
     }
 }
 
@@ -69,7 +70,7 @@
         justify-content: space-evenly;
         align-items: center;
         transition: all .3s ease-in-out;
-        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        box-shadow: none;
         font-size: 1.3rem;
     }
 }
