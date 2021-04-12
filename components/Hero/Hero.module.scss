@@ -7,6 +7,7 @@
 
     h2 {
         font-size: 1.2rem;
+        font-weight: 400;
 
         @media screen and (max-width: 480px) {
             font-size: 1rem;
@@ -16,7 +17,7 @@
 
 .heroContainer {
     width: 550px;
-    margin: 20px auto;
+    margin: 30px auto auto auto;
 
     >div {
         width: 50%;
@@ -45,10 +46,10 @@
 
 .heroIcon {
     background: var(--secondary_bg);
-    width: 18%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
     border-radius: 30px;
-    margin-left: -8px;
+    margin-left: -17px;
 }
 
 .heroText {
@@ -58,7 +59,7 @@
 
     p {
         @media screen and (max-width: 480px) {
-            font-size: .9rem;
+            font-size: .95rem;
         }
     }
 }
