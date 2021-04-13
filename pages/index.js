@@ -6,6 +6,8 @@ import Metodo from '../components/Metodo/Metodo';
 import Servico from '../components/Servico/Servico';
 import SEO from '../components/SEO/SEO';
 import Portfolio from '../components/Portfolio/Portfolio';
+import Sobre from '../components/Sobre/Sobre';
+import Contato from '../components/Contato/Contato';
 
 export default function Home() {
     return (
@@ -18,6 +20,8 @@ export default function Home() {
                 <Servico />
                 <SEO />
                 <Portfolio />
+                <Sobre />
+                <Contato />
             </main>
             <Footer />
         </>

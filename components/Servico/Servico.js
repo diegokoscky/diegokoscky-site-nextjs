@@ -7,9 +7,9 @@ const Servico = () => {
             <div className="container">
                 <h2>Serviço</h2>
                 <p>
-                    Desenvolvimento de sites, criação de landing pages e serviços de marketing 
-                    digital diferenciados. Que tal levarmos o seu negócio para um novo patamar? 
-                    Ganhe mais visibilidade, traga sua empresa para a web!
+                    Desenvolvimento de <strong>sites</strong>, criação de <strong>landing pages</strong> e serviços de <strong>marketing 
+                    digital</strong> diferenciados. Que tal levarmos o seu negócio para um novo patamar? 
+                    Ganhe <strong>mais visibilidade</strong>, traga sua empresa para a web!
                 </p>
             </div>
             <div className="container section-image">

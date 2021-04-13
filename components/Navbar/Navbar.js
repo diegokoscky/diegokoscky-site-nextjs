@@ -26,7 +26,7 @@ export default function Navbar() {
                             { click ? <FaTimes /> : <FaBars /> }
                         </div>
                         <ul id={styles.navDesktop} 
-                        className={ click ? styles.navActive : 'flex-center' }>
+                        className={ click ? styles.navActive : '' }>
                             <li onClick={handleNavbar}>
                                 <Link href="#metodo" passHref>
                                     Método

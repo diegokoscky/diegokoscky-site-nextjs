@@ -15,9 +15,9 @@ const Metodo = () => {
                 <div className="container">
                     <h2>Método</h2>
                     <p>
-                        Olá! Eu sou o Diego. Além de ser empreendedor digital, atuo como web designer 
-                        freelancer na região de BH. Especializado na criação de sites e soluções web 
-                        personalizadas para diferenciar você dos seus concorrentes e aumentar o lucro 
+                        Olá! Eu sou o Diego. Além de ser empreendedor digital, atuo como <strong>web designer </strong>
+                        freelancer na região de BH. Especializado na <strong>criação de sites</strong> e <strong>soluções web 
+                        personalizadas</strong> para diferenciar você dos seus concorrentes e aumentar o <strong>lucro</strong> 
                         do seu negócio. Mais credibilidade para a sua empresa!
                     </p>
 

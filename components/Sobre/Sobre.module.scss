@@ -1,0 +1,44 @@
+.sobreImg {
+    margin-bottom: 1.5rem;
+
+    img {
+        border-radius: 50%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.sobreDetalhes {
+    align-items: flex-start;
+    margin-top: 4rem;
+
+    >div {
+        width: 45%;
+
+        h3, small {
+            text-align: left;
+        }
+
+        >div {
+            a {
+                margin-top: 1rem;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.sobreHabilidades {
+    margin-bottom: .1rem;
+    margin-right: .1rem;
+}

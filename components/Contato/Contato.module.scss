@@ -1,0 +1,65 @@
+$whatsappBg: #07bc4c;
+$messengerBg: #1877F2;
+$orcamentoBg: #242424;
+
+.contatoContainer {
+    margin-top: 4rem;
+
+    >div {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            margin: 1rem 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            width: 70%;
+            margin-bottom: 2.5rem;
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.btnWhatsapp {
+    background: $whatsappBg;
+    color: var(--secondary-text);
+
+    &:hover {
+        background: var(--primary_bg);
+        color: $whatsappBg;
+        border-color: $whatsappBg;
+    }
+}
+
+.btnMessenger {
+    background: $messengerBg;
+    color: var(--secondary-text);
+
+    &:hover {
+        background: var(--primary_bg);
+        color: $messengerBg;
+        border-color: $messengerBg;
+    }
+}
+
+.btnOrcamento {
+    background: $orcamentoBg;
+    color: var(--secondary-text);
+
+    &:hover {
+        background: var(--primary_bg);
+        color: $orcamentoBg;
+        border-color: $orcamentoBg;
+    }
+}
