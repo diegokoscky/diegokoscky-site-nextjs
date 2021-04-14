@@ -4,7 +4,7 @@ import { FiLinkedin } from 'react-icons/fi';
 
 export default function Sobre() {
     return (
-        <section className="section">
+        <section id="sobre" className="section">
             <div className="container">
                 <div className={styles.sobreImg}>
                     <img src="/imgs/profile.jpg" alt="Diego" />

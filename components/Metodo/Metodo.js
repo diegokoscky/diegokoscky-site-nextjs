@@ -11,7 +11,7 @@ const Metodo = () => {
                 size: 28
             }
         }>
-            <section id={styles.metodoSection} className="section">
+            <section id="metodo" className="section">
                 <div className="container">
                     <h2>Método</h2>
                     <p>

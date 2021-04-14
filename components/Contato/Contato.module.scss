@@ -16,6 +16,12 @@ $orcamentoBg: #242424;
             margin: 1rem 0;
         }
 
+        >a {
+            svg {
+                margin-right: 5px;
+            }
+        }
+
         @media screen and (max-width: 768px) {
             width: 70%;
             margin-bottom: 2.5rem;
@@ -34,32 +40,14 @@ $orcamentoBg: #242424;
 .btnWhatsapp {
     background: $whatsappBg;
     color: var(--secondary-text);
-
-    &:hover {
-        background: var(--primary_bg);
-        color: $whatsappBg;
-        border-color: $whatsappBg;
-    }
 }
 
 .btnMessenger {
     background: $messengerBg;
     color: var(--secondary-text);
-
-    &:hover {
-        background: var(--primary_bg);
-        color: $messengerBg;
-        border-color: $messengerBg;
-    }
 }
 
 .btnOrcamento {
     background: $orcamentoBg;
     color: var(--secondary-text);
-
-    &:hover {
-        background: var(--primary_bg);
-        color: $orcamentoBg;
-        border-color: $orcamentoBg;
-    }
 }

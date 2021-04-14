@@ -3,7 +3,7 @@ import {AiOutlineMobile} from 'react-icons/ai';
 
 const Servico = () => {
     return (
-        <section id={styles.servicoSection} className="section">
+        <section id="servico" className="section">
             <div className="container">
                 <h2>Serviço</h2>
                 <p>

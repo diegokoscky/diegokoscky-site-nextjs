@@ -2,7 +2,7 @@ import styles from './Portfolio.module.scss';
 
 const Portfolio = () => {
     return (
-        <section id={styles.portfolioSection} className="section">
+        <section id="portfolio" className="section">
             <div className="container">
                 <h2>Portfólio</h2>
                 <p>Veja alguns dos projetos em que trabalhei:</p>
