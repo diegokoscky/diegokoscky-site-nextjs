@@ -10,7 +10,7 @@ const Hero = () => {
                 size: 17
             }
         }>
-            <section id={styles.heroSection} className="section">
+            <section id="hero" className={`section `+styles.heroSection}>
                 <div className="container">
                     <h1>Diego Koscky</h1>
                     <h2>Web Design | Marketing Digital</h2>

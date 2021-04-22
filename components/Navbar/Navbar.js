@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import styles from '../Navbar/Navbar.module.scss';
-import Link from 'next/link';
+import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
@@ -16,7 +16,9 @@ export default function Navbar() {
             <nav className={styles.navbar}>
                 <div className="container">
                     <div className={`flex-between `+styles.navbarWrapper}>
-                        <Link href="/" passHref>
+                        <Link to="__next"
+                        smooth={true}
+                        duration={700}>
                             <img className={styles.logoImg} 
                             src="/imgs/logo.svg" 
                             alt="Logo" />
@@ -28,27 +30,37 @@ export default function Navbar() {
                         <ul id={styles.navDesktop} 
                         className={ click ? styles.navActive : '' }>
                             <li onClick={handleNavbar}>
-                                <Link href="#metodo" passHref>
+                                <Link to="metodo"
+                                smooth={true}
+                                duration={700}>
                                     Método
                                 </Link>
                             </li>
                             <li onClick={handleNavbar}>
-                                <Link href="#servico" passHref>
+                                <Link to="servico"
+                                smooth={true}
+                                duration={700}>
                                     Serviço
                                 </Link>
                             </li>
                             <li onClick={handleNavbar}>
-                                <Link href="#portfolio" passHref>
+                                <Link to="portfolio"
+                                smooth={true}
+                                duration={700}>
                                     Portfólio
                                 </Link>
                             </li>
                             <li onClick={handleNavbar}>
-                                <Link href="#sobre" passHref>
+                                <Link to="sobre"
+                                smooth={true}
+                                duration={700}>
                                     Sobre Mim
                                 </Link>
                             </li>
                             <li onClick={handleNavbar}>
-                                <Link href="#contato" passHref>
+                                <Link to="contato"
+                                smooth={true}
+                                duration={700}>
                                     Contato
                                 </Link>
                             </li>
