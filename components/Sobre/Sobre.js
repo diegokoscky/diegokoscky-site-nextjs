@@ -12,7 +12,7 @@ export default function Sobre() {
                 <div>
                     <p>
                         Sou <strong>Bacharel</strong> em Sistemas de Informação, <strong>Empreendedor Digital</strong> e 
-                        <strong>Web Designer Freelancer</strong>. Resido na região de Belo Horizonte, MG.
+                        <strong> Web Designer Freelancer</strong>. Resido na região de Belo Horizonte, MG.
                     </p>
                 </div>
                 <div className={styles.sobreDetalhes+` flex-between`}>

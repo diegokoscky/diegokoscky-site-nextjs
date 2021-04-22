@@ -32,35 +32,40 @@ export default function Navbar() {
                             <li onClick={handleNavbar}>
                                 <Link to="metodo"
                                 smooth={true}
-                                duration={700}>
+                                duration={700}
+                                onClick={handleNavbar}>
                                     Método
                                 </Link>
                             </li>
                             <li onClick={handleNavbar}>
                                 <Link to="servico"
                                 smooth={true}
-                                duration={700}>
+                                duration={700}
+                                onClick={handleNavbar}>
                                     Serviço
                                 </Link>
                             </li>
                             <li onClick={handleNavbar}>
                                 <Link to="portfolio"
                                 smooth={true}
-                                duration={700}>
+                                duration={700}
+                                onClick={handleNavbar}>
                                     Portfólio
                                 </Link>
                             </li>
                             <li onClick={handleNavbar}>
                                 <Link to="sobre"
                                 smooth={true}
-                                duration={700}>
+                                duration={700}
+                                onClick={handleNavbar}>
                                     Sobre Mim
                                 </Link>
                             </li>
                             <li onClick={handleNavbar}>
                                 <Link to="contato"
                                 smooth={true}
-                                duration={700}>
+                                duration={700}
+                                onClick={handleNavbar}>
                                     Contato
                                 </Link>
                             </li>
